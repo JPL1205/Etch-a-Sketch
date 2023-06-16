@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/lvdc-game-over" rel="stylesheet">
+</head>
+<body>
+    <script src="project.js" defer></script>
+
+    <div class="wrapper">
+         <div class="header"><p>Etch-a-Sketch</p></div>
+         <div class="main">
+            <div class="control">
+                <div class="set-color">
+                    <div class="color-card">
+                        <input type="color" class="color-box" value="#000000"></input>
+                        <span>Pen Color</span>
+                    </div>
+                    <div class="color-card c2">
+                        <input type="color" class="color-box" value="#ffffff"></input>
+                        <span>Back</span>
+                    </div>
+                    <div class="set">
+                        <div id="set">Set</div>
+                    </div>
+                </div>
+
+                
+                
+                <div class="size-selector">
+                    <div class="grid-size">30 x 30</div>
+                    <div class="slide-container">
+                        <input type="range" min="4" max="60" value="30" class="slider">
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-wrapper">
+                <div class="grid-container"></div>
+            </div>
+         </div>
+    </div>
+   
+    
+</body>
+</html>
